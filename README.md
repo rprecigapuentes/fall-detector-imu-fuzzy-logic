@@ -3,7 +3,7 @@ Fall detection prototype using accelerometer and gyroscope data from MPU6050 wit
 
 ---
 
-## 🧩 Overview
+## Overview
 
 This project aims to identify potential **fall events** by analyzing acceleration and angular velocity patterns from an IMU device.  
 Instead of using fixed thresholds, it implements a **fuzzy inference system (FIS)** that interprets the sensor data in a more flexible and human-like way.
@@ -12,7 +12,7 @@ The system is still **under development** — the logic, rules, and calibration 
 
 ---
 
-## ⚙️ Hardware
+## Hardware
 
 | Component | Description |
 |------------|-------------|
@@ -23,7 +23,7 @@ The system is still **under development** — the logic, rules, and calibration 
 
 ---
 
-## 🧠 Software & Dependencies
+## Software & Dependencies
 
 Written in **Python 3.9+**.  
 The fuzzy logic implementation uses the [scikit-fuzzy](https://pythonhosted.org/scikit-fuzzy/) library.
@@ -40,7 +40,7 @@ pip install numpy matplotlib scikit-fuzzy
 
 ---
 
-## 🧮 Fuzzy System Design
+## Fuzzy System Design
 
 - **Inputs**
   - `acc`: Acceleration magnitude (0–3.5 g)
@@ -62,7 +62,7 @@ Rules are defined such as:
 
 ---
 
-## 🚀 Running the Simulation
+## Running the Simulation
 
 ```bash
 python3 fall_detector.py
@@ -73,7 +73,7 @@ Sensor input can later be integrated from the IMU through serial or I2C communic
 
 ---
 
-## 📊 Current Status
+## Current Status
 
 | Stage | Progress |
 |--------|-----------|
@@ -84,7 +84,7 @@ Sensor input can later be integrated from the IMU through serial or I2C communic
 
 ---
 
-## 🔮 Future Work
+## Future Work
 
 - Calibrate fuzzy sets using real human motion data.  
 - Implement real-time data streaming from the IMU.  
