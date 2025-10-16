@@ -14,9 +14,14 @@ sudo apt-get update
 sudo apt-get install -y i2c-tools
 i2cdetect -y 1               # You should see 68 or 69
 
+```
+
+```bash
+
 python3 -m venv venv --system-site-packages
 source venv/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
 # Alternative (PiWheels):
 # pip install -i https://www.piwheels.org/simple -r requirements.txt
+```
