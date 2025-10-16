@@ -1,0 +1,129 @@
+# ------------------------------
+# General
+# ------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+*.obj
+*.a
+*.o
+
+# Logs and data
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.orig
+*.csv
+*.tsv
+*.json
+*.yaml
+*.yml
+*.db
+*.sqlite3
+*.lock
+*.pid
+*.gz
+*.zip
+*.tar
+*.tgz
+*.rar
+*.7z
+*.tar.gz
+
+# Jupyter / IPython
+.ipynb_checkpoints
+*.ipynb_save
+*.nbconvert.ipynb
+
+# ------------------------------
+# Virtual environments
+# ------------------------------
+env/
+venv/
+ENV/
+.venv/
+env.bak/
+venv.bak/
+env_old/
+pip-wheel-metadata/
+*.egg-info/
+*.egg
+.eggs/
+dist/
+build/
+wheels/
+*.manifest
+*.spec
+
+# ------------------------------
+# OS / Editor specific
+# ------------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+# Linux
+*~
+.nfs*
+
+# VS Code / JetBrains / Sublime / etc
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.iml
+
+# ------------------------------
+# Project specific
+# ------------------------------
+# IMU data logs
+data/*.txt
+data/*.csv
+data/*.log
+
+# Figures and plots
+figures/
+plots/
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+
+# Backups or temp
+backup/
+tmp/
+temp/
+~*
+
+# ------------------------------
+# Python typing and cache
+# ------------------------------
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+.pytest_cache/
+coverage/
+*.cover
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+*.coveragerc
+*.tox
+.cache/
+.pytest_cache/
+.hypothesis/
+.pyre/
